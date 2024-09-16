@@ -1,0 +1,51 @@
+*{
+    font-family: "Quicksand", sans-serif;
+    box-sizing: border-box;
+}
+
+.navbar{
+    background-color: #011f3f !important;
+}
+
+body{
+    background-color: #011f3f;
+}
+
+.expo-logo{
+    max-width: 100px;
+}
+/* 
+.leading{
+    max-width: 1200px;
+} */
+
+
+.leading > h1{
+    font-size: 65px;
+    color: white;
+    white-space: normal; 
+}
+
+#dynamic-text {
+    color: #007bff; /* Ajuste a cor conforme necessário */
+    border-right: 2px solid #007bff;
+    padding-right: 5px;
+    white-space: nowrap;
+    overflow: hidden;
+}
+
+
+.banner{
+    display: flex;
+    align-items: center;
+    gap: 30px;
+    height: calc(100vh - 70px);
+}
+
+.banner > img{
+    max-width: 600px;
+}
+
+.content{
+    
+}
