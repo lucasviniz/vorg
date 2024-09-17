@@ -157,3 +157,23 @@ body{
 #logo-footer{
     max-width: 200px;
 }
+
+.fale-conosco{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    text-align: right;
+}
+
+.fale-conosco-descricao{
+    display: flex;
+    gap: 10px;
+    flex-direction: column;
+    
+}
+
+.footer-container{
+    display: flex;
+    justify-content: space-around;
+    padding: 5rem;
+}
