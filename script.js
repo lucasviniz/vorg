@@ -26,5 +26,12 @@ function digitar() {
   }
 }
 
+document.querySelector('.arrow-link').addEventListener('click', function(e) {
+  e.preventDefault();  // Evita o comportamento padrão de pular diretamente
+  document.querySelector('#about-us').scrollIntoView({
+      behavior: 'smooth'  // Comportamento de rolagem suave
+  });
+});
+
 // Começa a digitar imediatamente
 digitar();

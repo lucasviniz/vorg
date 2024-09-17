@@ -12,7 +12,7 @@
     </head>
     <body>
         
-        <nav class="navbar navbar-expand-lg bg-body-tertiary dark">
+        <nav class="navbar navbar-expand-lg navbar-dark bg-body-tertiary dark">
             <div class="container-md">
                 <img class="expo-logo" src="./expo-logo.png" alt="">
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
@@ -24,7 +24,7 @@
                           <a class="nav-link active" aria-current="page" href="#">Home</a>
                         </li>
                         <li class="nav-item">
-                          <a class="nav-link" href="#">Sobre nos</a>
+                          <a class="nav-link" href="./about.html">Sobre nos</a>
                         </li>
                         <li class="nav-item">
                           <a class="nav-link" href="#">Eventos</a>
@@ -34,17 +34,36 @@
             </div>
         </nav>
 
-        <div class="banner container-md">
-            <div class="leading">
-                <h1>Descubra novas tendências e faça parte dos maiores eventos tech do momento. <br><span id="dynamic-text"></span></h1>
+        <div class="hero-section container-md">
+            <div class="banner">
+                <div class="leading">
+                    <h1>Descubra novas tendências e faça parte dos maiores eventos tech do momento. <br><span id="dynamic-text"></span></h1>
+                </div>
+
+                <img src="./innovation.svg" alt="">
             </div>
 
-            <img src="./innovation.svg" alt="">
+            <div class="arrow-container">
+                <a href="#about-us" class="arrow-link">
+                    <div class="arrow"></div>
+                </a>
+            </div>
         </div>
 
 
         <div class="content">
+            <section id="about-us">
+                <div class="container-md card-about">
+                    <div class="quem-somos-title">
+                        <h2>Quem Somos?</h2>
+                    </div>
+                    <div id="divider"></div>
 
+                    <p class="quem-somos-description">
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Eget duis mi nunc bibendum. Tellus elementum nec lorem eget dictumst. Risus in gravida eu, enim lorem. Sed consequat ut suspendisse eros. Nunc nunc accumsan, viverra enim. Mi.
+                    </p>
+                </div>
+            </section>
         </div>
 
         <script src="./script.js"></script>
