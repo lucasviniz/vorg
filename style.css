@@ -4,7 +4,7 @@
 }
 
 html {
-    scroll-behavior: smooth; /* Transição suave */
+    scroll-behavior: smooth;
 }
 
 
@@ -32,7 +32,7 @@ body{
 }
 
 #dynamic-text {
-    color: #007bff; /* Ajuste a cor conforme necessário */
+    color: #007bff;
     border-right: 2px solid #007bff;
     padding-right: 5px;
     white-space: nowrap;
