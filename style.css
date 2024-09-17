@@ -132,3 +132,28 @@ body{
 	background: blue;
 	background: linear-gradient( hsl(197, 100%, 83%), hsl(231, 100%, 65%), hsl(197, 100%, 83%));
 }
+
+.contato{
+    display: flex;
+    flex-direction: column;
+}
+
+.contato h2, .contato p{
+    text-align: center;
+}
+
+.form-contact{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.form-contact > input, .form-contact > textarea{
+    border: none;
+    border-radius: 5px;
+    padding: 0.5rem;
+}
+
+#logo-footer{
+    max-width: 200px;
+}
